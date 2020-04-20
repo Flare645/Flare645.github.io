@@ -1,0 +1,79 @@
+body {
+  font-family: 'karla', san-serif;
+  font-size: 24px;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+h2 {
+  color: white;
+}
+h2.green {
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  color: hsl(218, 22%, 67%);
+}
+strong {
+  font-size: 30px;
+  color: white;
+}
+p.white {
+  color: white;
+}
+
+#join {
+  margin: 100px 100px 20px 100px;
+}
+#subscription {
+  background-color: hsl(179, 62%, 43%);
+  width: 40%;
+  height: 400px;
+  padding: 5%;
+  float: left;
+
+}
+.myButton {
+	background-color:hsl(71, 73%, 54%);
+	border-radius:4px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	padding:14px 68px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  width: 50%;
+  margin-top: 50px;
+  text-align: center;
+}
+#Why {
+  background-color: hsl(179, 53%, 62%);
+  width: 40%;
+  height: 400px;
+  padding: 5%;
+  float: left;
+}
+@media only screen and (max-width: 850px) {
+  body {
+    font-size: 18px;
+  }
+  #join {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #subscription {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #Why {
+    width: 100%;
+    text-align: center;
+  }
+
+  }
