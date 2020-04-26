@@ -1,6 +1,7 @@
 body {
   font-family: 'karla', san-serif;
   font-size: 24px;
+  margin: 0;
 }
 h1 {
   color: hsl(179, 62%, 43%);
